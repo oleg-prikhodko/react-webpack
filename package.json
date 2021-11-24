@@ -6,8 +6,8 @@
     "test": "npm run format:check && npm run lint",
     "start": "webpack serve",
     "build": "webpack",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
+    "format": "prettier --ignore-path .gitignore --write .",
+    "format:check": "prettier --ignore-path .gitignore --check .",
     "lint": "eslint ./src"
   },
   "devDependencies": {
